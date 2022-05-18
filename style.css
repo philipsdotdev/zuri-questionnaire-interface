@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(108deg, #832ffb 0%, #52cbb9 76%, #00d4ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.outer-wrapper {
+    max-width: 600px;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: 1s;
+}
