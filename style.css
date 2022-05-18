@@ -6,10 +6,49 @@ body {
     min-height: 100vh;
 }
 
+.emoji {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    height: 1.5rem; 
+}
+
+.instruction {
+    background-color: #832ffb;
+    background-image: linear-gradient(-108deg, #832ffb 0%, #9d39cc 69%, #00d4ff 100%);
+    background-image: conic-gradient (-108deg, #832ffb 0%, #9d39cc 69%, #00d4ff 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.1rem;
+    font-weight: normal;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
 .outer-wrapper {
+    align-items: center;
+    justify-content: center;
     max-width: 600px;
     background: white;
     padding: 2rem;
     border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.302);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
     transition: 1s;
 }
+
+.here {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: cell;
+}
+
+.checkbox {
+    display: none;
+}
+
